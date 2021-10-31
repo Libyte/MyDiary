@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+    <string name="create_diary">新建日记</string>
+    <string name="default_title">默认标题</string>
+    <string name="create_time">创建时间</string>
+    <string name="content">日记内容</string>
+    <string name="default_name">佚名</string>
+    <string name="diary_default_name">无主题日记</string>
+    <string name="sex">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="diary_content_hint">请输入日记内容</string>
+    <string name="diary_author">作者</string>
+    <string name="todo">TODO</string>
+</resources>

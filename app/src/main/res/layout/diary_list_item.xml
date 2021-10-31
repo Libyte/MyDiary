@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="5dp">
+    <TableLayout
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        tools:ignore="UselessParent">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/diary_item_title"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/default_title"
+                android:textColor="#ff000000"
+                android:textSize="20sp"
+                android:layout_gravity="left"
+                tools:ignore="Suspicious0dp" />
+
+            <TextView
+                android:id="@+id/diary_item_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:text="@string/default_name"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/diary_item_create_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="2"
+                android:text="@string/create_time"
+                android:textSize="10sp"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="Suspicious0dp" />
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <TextView
+                android:id="@+id/diary_item_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/content"
+                android:textSize="16sp" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
